@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- EDIT: {{CLINIC_NAME}} -->
+    <title>Our Services — Sabbir Dental Care</title>
+    <meta name="description" content="Explore the full range of dental services offered at Sabbir Dental Care." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR (same as index.html) -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="navbar__inner">
+                <a href="index.html" class="navbar__logo">
+                    <span><i class="fa-solid fa-tooth"></i></span>
+                    Sabbir Dental Care
+                </a>
+                <ul class="navbar__links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="index.html#contact" class="navbar__cta">Book Appointment</a></li>
+                </ul>
+                <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================================================
+       PAGE BANNER
+  ================================================ -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Our Dental Services</h1>
+            <p>Advanced treatments delivered with care and precision</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>›</span>
+                <span class="current">Services</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================
+       INTRO PARAGRAPH
+  ================================================ -->
+    <section style="padding:60px 20px 0; background:#fff;">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-header__tag">Complete Dental Care</div>
+                <h2>Everything Your Smile <span>Deserves</span></h2>
+                <p>We offer a comprehensive range of dental treatments using the latest technology to ensure
+                    comfortable, effective, and lasting results for every patient.</p>
+                <div class="section-divider"><span class="section-divider__dot"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================
+       SERVICES GRID (4 Cards)
+       EDIT: All {{SERVICE_X_TITLE}}, {{SERVICE_X_DESC}}, {{SERVICE_X_IMAGE}}
+  ================================================ -->
+    <section class="services-page">
+        <div class="container">
+            <div class="services-grid-4">
+
+                <!-- Service 1 -->
+                <div class="service-card-lg">
+                    <div class="service-card-lg__overflow">
+                        <img src="1.png" alt="Oral Surgery" class="service-card-lg__img" />
+                    </div>
+                              <div class="service-card__price-tag">Price: &#2547; 1,000 Taka</div>`n<div class="service-card-lg__body">
+                        <div class="service-card-lg__num">Service 01</div>
+                        <h3>Oral & Maxillofacial Surgery</h3>
+                        <span class="service-price">Expert Surgical Care</span>
+                        <p>Specialized surgical procedures for complex dental and jaw conditions, led by Dr. Md. Sabbir Ahmed.</p>
+                        <a href="index.html#appointment" class="btn btn--blue" style="font-size:0.85rem;padding:10px 24px;">
+                            Book This Service <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card-lg">
+                    <div class="service-card-lg__overflow">
+                        <img src="2.png" alt="Dental X-Ray" class="service-card-lg__img" />
+                    </div>
+                    <div class="service-card-lg__body">
+                        <div class="service-card__badge" style="position:absolute; top:10px; right:10px; background:#e74c3c; color:#fff; padding:4px 10px; border-radius:4px; font-size:0.7rem; font-weight:bold; z-index:2;">URGENT</div>
+                        <div class="service-card-lg__num">Service 02</div>
+                        <h3>Urgent Dental X-Ray</h3>
+                        <span class="service-price">Immediate Facility</span>
+                        <p>Equipped with modern X-ray technology for instant diagnosis of underlying dental issues.</p>
+                        <a href="index.html#appointment" class="btn btn--blue" style="font-size:0.85rem;padding:10px 24px;">
+                            Book This Service <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card-lg">
+                    <div class="service-card-lg__overflow">
+                        <img src="3.png" alt="Scaling & Polishing" class="service-card-lg__img" />
+                    </div>
+                              <div class="service-card__price-tag">Price: &#2547; 1,500 Taka</div>`n<div class="service-card-lg__body">
+                        <div class="service-card-lg__num">Service 03</div>
+                        <h3>Scaling & Polishing</h3>
+                        <span class="service-price">Deep Cleaning</span>
+                        <p>Keep your teeth and gums healthy with professional cleaning and polishing treatments.</p>
+                        <a href="index.html#appointment" class="btn btn--blue" style="font-size:0.85rem;padding:10px 24px;">
+                            Book This Service <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card-lg">
+                    <div class="service-card-lg__overflow">
+                        <img src="4.png" alt="Root Canal Treatment" class="service-card-lg__img" />
+                    </div>
+                              <div class="service-card__price-tag">Price: &#2547; 2,500 Taka</div>`n<div class="service-card-lg__body">
+                        <div class="service-card-lg__num">Service 04</div>
+                        <h3>Root Canal Treatment (RCT)</h3>
+                        <span class="service-price">Pain Relief</span>
+                        <p>Expert root canal procedures to save damaged teeth and eliminate persistent dental pain.</p>
+                        <a href="index.html#appointment" class="btn btn--blue" style="font-size:0.85rem;padding:10px 24px;">
+                            Book This Service <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card-lg">
+                    <div class="service-card-lg__overflow">
+                        <img src="5.png" alt="Dental Fillings" class="service-card-lg__img" />
+                    </div>
+                    <div class="service-card-lg__body">
+                        <div class="service-card-lg__num">Service 05</div>
+                        <h3>Fillings & Restorations</h3>
+                        <span class="service-price">Cavity Care</span>
+                        <p>High-quality tooth-colored fillings to restore the function and appearance of decayed teeth.</p>
+                        <a href="index.html#appointment" class="btn btn--blue" style="font-size:0.85rem;padding:10px 24px;">
+                            Book This Service <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card-lg">
+                    <div class="service-card-lg__overflow">
+                        <img src="6.png" alt="Braces" class="service-card-lg__img" />
+                    </div>
+                    <div class="service-card-lg__body">
+                        <div class="service-card-lg__num">Service 06</div>
+                        <h3>Braces & Orthodontics</h3>
+                        <span class="service-price">Straight Smiles</span>
+                        <p>Correction of crowded or misaligned teeth with modern braces and orthodontic solutions.</p>
+                        <a href="index.html#appointment" class="btn btn--blue" style="font-size:0.85rem;padding:10px 24px;">
+                            Book This Service <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="service-card-lg">
+                    <div class="service-card-lg__overflow">
+                        <img src="7.png" alt="Crowns & Bridges" class="service-card-lg__img" />
+                    </div>
+                    <div class="service-card-lg__body">
+                        <div class="service-card-lg__num">Service 07</div>
+                        <h3>Dental Crowns & Bridges</h3>
+                        <span class="service-price">Tooth Restoration</span>
+                        <p>Durable crowns and bridges to replace missing teeth and protect weakened tooth structures.</p>
+                        <a href="index.html#appointment" class="btn btn--blue" style="font-size:0.85rem;padding:10px 24px;">
+                            Book This Service <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="service-card-lg">
+                    <div class="service-card-lg__overflow">
+                        <img src="8.png" alt="Tooth Extractions" class="service-card-lg__img" />
+                    </div>
+                    <div class="service-card-lg__body">
+                        <div class="service-card-lg__num">Service 08</div>
+                        <h3>Tooth Extraction</h3>
+                        <span class="service-price">Safe Removal</span>
+                        <p>Painless and safe tooth extraction procedures when restoration is no longer an option.</p>
+                        <a href="index.html#appointment" class="btn btn--blue" style="font-size:0.85rem;padding:10px 24px;">
+                            Book This Service <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================
+       FINAL CTA / APPOINTMENT SECTION
+  ================================================ -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Schedule Your Visit?</h2>
+            <p>Contact us today and let our team help you achieve the smile you deserve.</p>
+            <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+                <!-- EDIT: {{PHONE_NUMBER}} -->
+                <a href="tel:01951029630" class="btn btn--white">
+                    <i class="fa-solid fa-phone"></i> 01951-029630
+                </a>
+                <!-- EDIT: {{WHATSAPP_NUMBER}} -->
+                <a href="https://wa.me/8801951029630" target="_blank" class="btn btn--white">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <div class="footer__logo">🦷 Sabbir Dental Care </div>
+                    <p>Dedicated dental care for you and your family.</p>
+                </div>
+                <div class="footer__col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">📍 Mirpur-2, Dhaka 1216, Bangladesh </a></li>
+                        <li><a href="tel:01951029630">📞 01951-029630</a></li>
+                        <li><a href="#">🕐 Morning: 9:00 AM – 2:00 PM<br>Evening: 4:30 PM – 9:00 PM</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                &copy; 2026 Sabbir Dental Care. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/8801951029630" target="_blank" class="whatsapp-float" id="whatsappFloat"
+        aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="whatsapp-float__tooltip">Chat with us!</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
